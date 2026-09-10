@@ -5,3 +5,15 @@
   list-style:none;
   box-sizing:border-box;
 }
+body{
+  width:100vw;
+  height:100vh;
+  overflow-x:hidden;
+}
+main{
+  display:flex;
+  margin:auto;
+  flex-direction:column;
+  width:960px;
+  min-height:100%;
+}
